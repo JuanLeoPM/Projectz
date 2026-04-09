@@ -476,5 +476,5 @@ elif app_mode == "5. Value at Risk":
         )
 
 st.divider()
-st.markdown(
+st.markdown()
 
