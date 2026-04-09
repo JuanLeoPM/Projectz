@@ -15,10 +15,10 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from statsmodels.tsa.stattools import coint
 
-st.set_page_config(page_title="Weekend Quant Lab", layout="wide")
+st.set_page_config(page_title="Finance tools", layout="wide")
 
-st.title("Weekend Quant Lab")
-st.caption("A single app that turns 5 beginner quant projects into a portfolio-ready mini platform.")
+st.title("Finance tools")
+st.caption("Juan Leonardo Patiño Martinez")
 
 # -----------------------------
 # Utilities
@@ -475,6 +475,5 @@ elif app_mode == "5. Value at Risk":
             "Upgrade path: add Monte Carlo VaR, stress scenarios, factor shocks, liquidity haircuts, and horizon scaling."
         )
 
-st.divider()
-st.markdown()
+
 
