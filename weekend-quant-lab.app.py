@@ -478,35 +478,3 @@ elif app_mode == "5. Value at Risk":
 st.divider()
 st.markdown(
     """
-### Repo structure suggestion
-
-```text
-weekend-quant-lab/
-├── app.py
-├── requirements.txt
-├── README.md
-├── modules/
-│   ├── data.py
-│   ├── prediction.py
-│   ├── optimization.py
-│   ├── monte_carlo.py
-│   ├── pairs.py
-│   └── risk.py
-└── assets/
-    └── screenshots/
-```
-
-### Suggested requirements
-
-```text
-streamlit
-pandas
-numpy
-yfinance
-plotly
-scikit-learn
-scipy
-statsmodels
-```
-"""
-)
