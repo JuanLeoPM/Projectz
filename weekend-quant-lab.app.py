@@ -17,6 +17,70 @@ from statsmodels.tsa.stattools import coint
 
 st.set_page_config(page_title="Finance tools", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #000000;
+        color: #f5f5f5;
+    }
+    [data-testid="stAppViewContainer"] {
+        background: #000000;
+    }
+    [data-testid="stHeader"] {
+        background: rgba(0,0,0,0);
+    }
+    [data-testid="stSidebar"] {
+        background: #050505;
+        border-right: 1px solid #1f1f1f;
+    }
+    .block-container {
+        padding-top: 2rem;
+    }
+    h1, h2, h3, h4, h5, h6, p, div, label, span {
+        color: #f5f5f5 !important;
+    }
+    .stMarkdown, .stText, .stCaption {
+        color: #d9d9d9 !important;
+    }
+    [data-testid="stMetric"] {
+        background: #0d0d0d;
+        border: 1px solid #202020;
+        border-radius: 14px;
+        padding: 0.75rem;
+    }
+    [data-testid="stDataFrame"], .stTable {
+        background: #0a0a0a;
+        border-radius: 12px;
+    }
+    .stAlert {
+        background: #101010;
+        color: #f5f5f5;
+        border: 1px solid #242424;
+    }
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        background-color: #111111;
+        border-radius: 10px 10px 0 0;
+        color: #f5f5f5;
+    }
+    .stButton>button, .stDownloadButton>button {
+        background: #111111;
+        color: white;
+        border: 1px solid #2a2a2a;
+        border-radius: 10px;
+    }
+    .stTextInput>div>div>input, .stNumberInput input, .stDateInput input {
+        background-color: #0d0d0d !important;
+        color: #f5f5f5 !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("Finance tools")
 st.caption("Juan Leonardo Patiño Martinez")
 
